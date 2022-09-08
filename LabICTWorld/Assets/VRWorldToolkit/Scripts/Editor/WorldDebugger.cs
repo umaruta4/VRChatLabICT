@@ -1996,7 +1996,9 @@ namespace VRWorldToolkit
                             Object lightmap = lightmaps[i].lightmapColor;
 
                             var textureImporter = AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(lightmaps[i].lightmapColor)) as TextureImporter;
-
+                            if (textureImporter == null){
+                                Debug.Log("<color=red>Error: </color>AssetBundle not found");
+                            }
                             var platformSettings = textureImporter.GetPlatformTextureSettings("Android");
 
                             if (!platformSettings.overridden)
