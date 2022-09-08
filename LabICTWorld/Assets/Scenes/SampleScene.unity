@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 0.4
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 72deae4d18418f94688abef8e8483df0, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 16bc8a9d5451ca44d8f70575adbece3a, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.7070596, g: 0.4012271, b: 0.22589955, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 3952679}
   - component: {fileID: 3952678}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 5847057}
   - component: {fileID: 5847056}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 8542523}
   - component: {fileID: 8542522}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -968,7 +968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13785390}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1022,7 +1022,7 @@ GameObject:
   - component: {fileID: 17027175}
   - component: {fileID: 17027174}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2497,7 +2497,7 @@ GameObject:
   - component: {fileID: 46712960}
   - component: {fileID: 46712959}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2962,7 +2962,7 @@ GameObject:
   - component: {fileID: 60238065}
   - component: {fileID: 60238064}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3055,7 +3055,7 @@ GameObject:
   - component: {fileID: 62095188}
   - component: {fileID: 62095187}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5103,7 +5103,7 @@ GameObject:
   - component: {fileID: 103652313}
   - component: {fileID: 103652312}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5196,7 +5196,7 @@ GameObject:
   - component: {fileID: 105092470}
   - component: {fileID: 105092469}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5526,7 +5526,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5179181472d4edd419530ac25b80fdf8, type: 2}
+  - {fileID: 2100000, guid: d890ecc9b4a5047489dc0a7363e412bc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6033,7 +6033,7 @@ GameObject:
   - component: {fileID: 124213661}
   - component: {fileID: 124213660}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6252,7 +6252,7 @@ GameObject:
   - component: {fileID: 127290892}
   - component: {fileID: 127290891}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6345,7 +6345,7 @@ GameObject:
   - component: {fileID: 127494500}
   - component: {fileID: 127494499}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7089,7 +7089,7 @@ GameObject:
   - component: {fileID: 143637852}
   - component: {fileID: 143637851}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7275,7 +7275,7 @@ GameObject:
   - component: {fileID: 145758833}
   - component: {fileID: 145758832}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7926,7 +7926,7 @@ GameObject:
   - component: {fileID: 160780092}
   - component: {fileID: 160780091}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8019,7 +8019,7 @@ GameObject:
   - component: {fileID: 161253300}
   - component: {fileID: 161253299}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8112,7 +8112,7 @@ GameObject:
   - component: {fileID: 161957463}
   - component: {fileID: 161957462}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8298,7 +8298,7 @@ GameObject:
   - component: {fileID: 164803722}
   - component: {fileID: 164803721}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8741,7 +8741,7 @@ GameObject:
   - component: {fileID: 179175728}
   - component: {fileID: 179175727}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10043,7 +10043,7 @@ GameObject:
   - component: {fileID: 193959978}
   - component: {fileID: 193959977}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10448,7 +10448,7 @@ GameObject:
   - component: {fileID: 205261328}
   - component: {fileID: 205261327}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10541,7 +10541,7 @@ GameObject:
   - component: {fileID: 207762102}
   - component: {fileID: 207762101}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10634,7 +10634,7 @@ GameObject:
   - component: {fileID: 215303053}
   - component: {fileID: 215303052}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11056,7 +11056,7 @@ GameObject:
   - component: {fileID: 219888531}
   - component: {fileID: 219888530}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11415,6 +11415,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223007644}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &223974226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1094421957795851142, guid: 8894fa7e4588a5c4fab98453e558847d,
+    type: 3}
+  m_PrefabInstance: {fileID: 512853068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &223974231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223974226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 1
 --- !u!1 &224675489
 GameObject:
   m_ObjectHideFlags: 0
@@ -11707,7 +11726,7 @@ GameObject:
   - component: {fileID: 231823211}
   - component: {fileID: 231823210}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11800,7 +11819,7 @@ GameObject:
   - component: {fileID: 234774407}
   - component: {fileID: 234774406}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11893,7 +11912,7 @@ GameObject:
   - component: {fileID: 236119230}
   - component: {fileID: 236119229}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12266,7 +12285,7 @@ GameObject:
   - component: {fileID: 243158659}
   - component: {fileID: 243158658}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12359,7 +12378,7 @@ GameObject:
   - component: {fileID: 243177885}
   - component: {fileID: 243177884}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13198,7 +13217,7 @@ GameObject:
   - component: {fileID: 253533613}
   - component: {fileID: 253533612}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13384,7 +13403,7 @@ GameObject:
   - component: {fileID: 256848877}
   - component: {fileID: 256848876}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13477,7 +13496,7 @@ GameObject:
   - component: {fileID: 260587538}
   - component: {fileID: 260587537}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13899,7 +13918,7 @@ GameObject:
   - component: {fileID: 268488613}
   - component: {fileID: 268488612}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14457,7 +14476,7 @@ GameObject:
   - component: {fileID: 280535656}
   - component: {fileID: 280535655}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15360,7 +15379,7 @@ GameObject:
   - component: {fileID: 311426857}
   - component: {fileID: 311426856}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16197,7 +16216,7 @@ GameObject:
   - component: {fileID: 335515725}
   - component: {fileID: 335515724}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16477,7 +16496,7 @@ GameObject:
   - component: {fileID: 339689097}
   - component: {fileID: 339689096}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17138,13 +17157,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351727476}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.000000014901159}
-  m_LocalPosition: {x: -0.893, y: 0.745, z: 11.133}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.393, y: 0.745, z: 11.133}
   m_LocalScale: {x: 0.11899429, y: 3, z: 7}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &353766707
 GameObject:
   m_ObjectHideFlags: 0
@@ -17303,7 +17322,7 @@ GameObject:
   - component: {fileID: 361015558}
   - component: {fileID: 361015557}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17768,7 +17787,7 @@ GameObject:
   - component: {fileID: 363936170}
   - component: {fileID: 363936169}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17861,7 +17880,7 @@ GameObject:
   - component: {fileID: 366773442}
   - component: {fileID: 366773441}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18326,7 +18345,7 @@ GameObject:
   - component: {fileID: 374040171}
   - component: {fileID: 374040170}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18419,7 +18438,7 @@ GameObject:
   - component: {fileID: 376215590}
   - component: {fileID: 376215589}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18698,7 +18717,7 @@ GameObject:
   - component: {fileID: 380183038}
   - component: {fileID: 380183037}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19163,7 +19182,7 @@ GameObject:
   - component: {fileID: 387019016}
   - component: {fileID: 387019015}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19885,7 +19904,7 @@ GameObject:
   - component: {fileID: 407489025}
   - component: {fileID: 407489024}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20351,7 +20370,7 @@ GameObject:
   - component: {fileID: 413415225}
   - component: {fileID: 413415224}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20444,7 +20463,7 @@ GameObject:
   - component: {fileID: 413760882}
   - component: {fileID: 413760881}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21909,6 +21928,7 @@ Transform:
   - {fileID: 1038130807}
   - {fileID: 1931192188}
   - {fileID: 1776928687}
+  - {fileID: 735641434}
   m_Father: {fileID: 1046524940}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21925,7 +21945,7 @@ GameObject:
   - component: {fileID: 462666716}
   - component: {fileID: 462666715}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22111,7 +22131,7 @@ GameObject:
   - component: {fileID: 469039789}
   - component: {fileID: 469039788}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22297,7 +22317,7 @@ GameObject:
   - component: {fileID: 476749395}
   - component: {fileID: 476749394}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22998,7 +23018,7 @@ GameObject:
   - component: {fileID: 487225185}
   - component: {fileID: 487225184}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23310,7 +23330,7 @@ GameObject:
   - component: {fileID: 491952924}
   - component: {fileID: 491952923}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24034,18 +24054,18 @@ PrefabInstance:
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.size
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a9c95cc770080b9458380edfb64d1ea9, type: 2}
+      objectReference: {fileID: 2100000, guid: d890ecc9b4a5047489dc0a7363e412bc, type: 2}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 9610b659f5f4a4b4f8074be8e76e0a6d, type: 2}
+      objectReference: {fileID: 2100000, guid: a9c95cc770080b9458380edfb64d1ea9, type: 2}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[2]
@@ -24055,17 +24075,37 @@ PrefabInstance:
         type: 3}
       propertyPath: DynamicMaterials.Array.data[3]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 9610b659f5f4a4b4f8074be8e76e0a6d, type: 2}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: 3405e38b366bb7f48bc85869a53f5dc2, type: 2}
+      objectReference: {fileID: 2100000, guid: 5179181472d4edd419530ac25b80fdf8, type: 2}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[5]
       value: 
-      objectReference: {fileID: 2100000, guid: 5179181472d4edd419530ac25b80fdf8, type: 2}
+      objectReference: {fileID: 2100000, guid: 6bb1dc3ec1e42ed478a9e52260c51c32, type: 2}
+    - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
+        type: 3}
+      propertyPath: DynamicMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3405e38b366bb7f48bc85869a53f5dc2, type: 2}
+    - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
+        type: 3}
+      propertyPath: DynamicMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: af62657571bf54a4e9eed50f8ebb8b8b, type: 2}
+    - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
+        type: 3}
+      propertyPath: DynamicMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfb7532500552c249ae87c9b8c434cbd, type: 2}
+    - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
+        type: 3}
+      propertyPath: DynamicMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8894fa7e4588a5c4fab98453e558847d, type: 3}
 --- !u!1 &513028747
@@ -24081,7 +24121,7 @@ GameObject:
   - component: {fileID: 513028750}
   - component: {fileID: 513028749}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24238,7 +24278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514649162}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000008344649}
-  m_LocalPosition: {x: -0.5093956, y: 1.0001533, z: 14.995915}
+  m_LocalPosition: {x: -0.243, y: 1.0001533, z: 5.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24257,7 +24297,7 @@ GameObject:
   - component: {fileID: 518395083}
   - component: {fileID: 518395082}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24979,7 +25019,7 @@ GameObject:
   - component: {fileID: 534683644}
   - component: {fileID: 534683643}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25444,7 +25484,7 @@ GameObject:
   - component: {fileID: 541046560}
   - component: {fileID: 541046559}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25630,7 +25670,7 @@ GameObject:
   - component: {fileID: 546845645}
   - component: {fileID: 546845644}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26561,7 +26601,7 @@ GameObject:
   - component: {fileID: 566324917}
   - component: {fileID: 566324916}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26934,7 +26974,7 @@ GameObject:
   - component: {fileID: 570663921}
   - component: {fileID: 570663920}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27120,7 +27160,7 @@ GameObject:
   - component: {fileID: 575271729}
   - component: {fileID: 575271728}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27213,7 +27253,7 @@ GameObject:
   - component: {fileID: 579194958}
   - component: {fileID: 579194957}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27492,7 +27532,7 @@ GameObject:
   - component: {fileID: 587038965}
   - component: {fileID: 587038964}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27804,7 +27844,7 @@ GameObject:
   - component: {fileID: 596554837}
   - component: {fileID: 596554836}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27897,7 +27937,7 @@ GameObject:
   - component: {fileID: 598107426}
   - component: {fileID: 598107425}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27990,7 +28030,7 @@ GameObject:
   - component: {fileID: 600254367}
   - component: {fileID: 600254366}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28080,7 +28120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603239803}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28878,7 +28918,7 @@ GameObject:
   - component: {fileID: 623687779}
   - component: {fileID: 623687778}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28971,7 +29011,7 @@ GameObject:
   - component: {fileID: 626318349}
   - component: {fileID: 626318348}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29064,7 +29104,7 @@ GameObject:
   - component: {fileID: 626724385}
   - component: {fileID: 626724384}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29343,7 +29383,7 @@ GameObject:
   - component: {fileID: 635045359}
   - component: {fileID: 635045358}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29474,7 +29514,7 @@ GameObject:
   - component: {fileID: 641910900}
   - component: {fileID: 641910899}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30405,7 +30445,7 @@ GameObject:
   - component: {fileID: 662476624}
   - component: {fileID: 662476623}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30644,7 +30684,7 @@ GameObject:
   - component: {fileID: 667042672}
   - component: {fileID: 667042671}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31016,7 +31056,7 @@ GameObject:
   - component: {fileID: 675463151}
   - component: {fileID: 675463150}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31481,7 +31521,7 @@ GameObject:
   - component: {fileID: 690773941}
   - component: {fileID: 690773940}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32038,7 +32078,7 @@ GameObject:
   - component: {fileID: 716750596}
   - component: {fileID: 716750595}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32131,7 +32171,7 @@ GameObject:
   - component: {fileID: 718520588}
   - component: {fileID: 718520587}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32317,7 +32357,7 @@ GameObject:
   - component: {fileID: 722656777}
   - component: {fileID: 722656776}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32447,7 +32487,7 @@ GameObject:
   - component: {fileID: 731194318}
   - component: {fileID: 731194317}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32540,7 +32580,7 @@ GameObject:
   - component: {fileID: 734984985}
   - component: {fileID: 734984984}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32619,6 +32659,99 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734984982}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &735641433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735641434}
+  - component: {fileID: 735641437}
+  - component: {fileID: 735641436}
+  - component: {fileID: 735641435}
+  m_Layer: 0
+  m_Name: Dinding (39)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &735641434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735641433}
+  m_LocalRotation: {x: -0, y: -0.60876054, z: -0, w: 0.7933541}
+  m_LocalPosition: {x: 7.97, y: -0.933095, z: 14.63}
+  m_LocalScale: {x: 0.11899426, y: 1, z: 8}
+  m_Children: []
+  m_Father: {fileID: 460814314}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: -75, z: 0}
+--- !u!65 &735641435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735641433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &735641436
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735641433}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d890ecc9b4a5047489dc0a7363e412bc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &735641437
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735641433}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &738559926
 GameObject:
@@ -34060,7 +34193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 776163628}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34207,7 +34340,7 @@ GameObject:
   - component: {fileID: 788542423}
   - component: {fileID: 788542422}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34393,7 +34526,7 @@ GameObject:
   - component: {fileID: 789261128}
   - component: {fileID: 789261127}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35083,7 +35216,7 @@ GameObject:
   - component: {fileID: 799899178}
   - component: {fileID: 799899177}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36292,7 +36425,7 @@ GameObject:
   - component: {fileID: 814876047}
   - component: {fileID: 814876046}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37129,7 +37262,7 @@ GameObject:
   - component: {fileID: 826487630}
   - component: {fileID: 826487629}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37222,7 +37355,7 @@ GameObject:
   - component: {fileID: 826935983}
   - component: {fileID: 826935982}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37315,7 +37448,7 @@ GameObject:
   - component: {fileID: 827325293}
   - component: {fileID: 827325292}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37408,7 +37541,7 @@ GameObject:
   - component: {fileID: 827798701}
   - component: {fileID: 827798700}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37652,8 +37785,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835175083}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.9686575, y: -1.382, z: 3.8909}
-  m_LocalScale: {x: 0.12133259, y: 0.10153782, z: 7.9735484}
+  m_LocalPosition: {x: 7.9687, y: -1.382, z: 4.0159}
+  m_LocalScale: {x: 0.12133259, y: 0.10153782, z: 7.723552}
   m_Children: []
   m_Father: {fileID: 1704136432}
   m_RootOrder: 20
@@ -37917,7 +38050,7 @@ GameObject:
   - component: {fileID: 842178683}
   - component: {fileID: 842178682}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38382,7 +38515,7 @@ GameObject:
   - component: {fileID: 854084280}
   - component: {fileID: 854084279}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38568,7 +38701,7 @@ GameObject:
   - component: {fileID: 858167344}
   - component: {fileID: 858167343}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38661,7 +38794,7 @@ GameObject:
   - component: {fileID: 863946017}
   - component: {fileID: 863946016}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38940,7 +39073,7 @@ GameObject:
   - component: {fileID: 871005639}
   - component: {fileID: 871005638}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39440,7 +39573,7 @@ GameObject:
   - component: {fileID: 884109162}
   - component: {fileID: 884109161}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39845,7 +39978,7 @@ GameObject:
   - component: {fileID: 898797206}
   - component: {fileID: 898797205}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40343,7 +40476,7 @@ GameObject:
   - component: {fileID: 912701726}
   - component: {fileID: 912701725}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40715,7 +40848,7 @@ GameObject:
   - component: {fileID: 919382014}
   - component: {fileID: 919382013}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41081,7 +41214,7 @@ GameObject:
   - component: {fileID: 922493462}
   - component: {fileID: 922493461}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42608,7 +42741,7 @@ GameObject:
   - component: {fileID: 955663279}
   - component: {fileID: 955663278}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42701,7 +42834,7 @@ GameObject:
   - component: {fileID: 957808184}
   - component: {fileID: 957808183}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43101,7 +43234,7 @@ GameObject:
   - component: {fileID: 968132935}
   - component: {fileID: 968132934}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43194,7 +43327,7 @@ GameObject:
   - component: {fileID: 968721379}
   - component: {fileID: 968721378}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44124,7 +44257,7 @@ GameObject:
   - component: {fileID: 987984229}
   - component: {fileID: 987984228}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44310,7 +44443,7 @@ GameObject:
   - component: {fileID: 990819547}
   - component: {fileID: 990819546}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45427,7 +45560,7 @@ GameObject:
   - component: {fileID: 1019711601}
   - component: {fileID: 1019711600}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45985,7 +46118,7 @@ GameObject:
   - component: {fileID: 1026772351}
   - component: {fileID: 1026772350}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46543,7 +46676,7 @@ GameObject:
   - component: {fileID: 1038011357}
   - component: {fileID: 1038011356}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46729,7 +46862,7 @@ GameObject:
   - component: {fileID: 1041596050}
   - component: {fileID: 1041596049}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46948,7 +47081,7 @@ GameObject:
   - component: {fileID: 1050756975}
   - component: {fileID: 1050756974}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47575,7 +47708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1062194443}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47664,7 +47797,7 @@ GameObject:
   - component: {fileID: 1066932072}
   - component: {fileID: 1066932071}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47850,7 +47983,7 @@ GameObject:
   - component: {fileID: 1073658372}
   - component: {fileID: 1073658371}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48223,7 +48356,7 @@ GameObject:
   - component: {fileID: 1081766205}
   - component: {fileID: 1081766204}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48760,7 +48893,7 @@ GameObject:
   - component: {fileID: 1089527214}
   - component: {fileID: 1089527213}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48943,7 +49076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098418799}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49276,7 +49409,7 @@ GameObject:
   - component: {fileID: 1110248784}
   - component: {fileID: 1110248783}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49742,7 +49875,7 @@ GameObject:
   - component: {fileID: 1122791664}
   - component: {fileID: 1122791663}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50114,7 +50247,7 @@ GameObject:
   - component: {fileID: 1130742723}
   - component: {fileID: 1130742722}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50300,7 +50433,7 @@ GameObject:
   - component: {fileID: 1131865657}
   - component: {fileID: 1131865656}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50393,7 +50526,7 @@ GameObject:
   - component: {fileID: 1136645494}
   - component: {fileID: 1136645493}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50765,7 +50898,7 @@ GameObject:
   - component: {fileID: 1141905983}
   - component: {fileID: 1141905982}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50951,7 +51084,7 @@ GameObject:
   - component: {fileID: 1148963628}
   - component: {fileID: 1148963627}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51323,7 +51456,7 @@ GameObject:
   - component: {fileID: 1155227473}
   - component: {fileID: 1155227472}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51509,7 +51642,7 @@ GameObject:
   - component: {fileID: 1160902257}
   - component: {fileID: 1160902256}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52396,7 +52529,7 @@ GameObject:
   - component: {fileID: 1171633755}
   - component: {fileID: 1171633754}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52955,7 +53088,7 @@ GameObject:
   - component: {fileID: 1179903157}
   - component: {fileID: 1179903156}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53082,7 +53215,7 @@ GameObject:
   - component: {fileID: 1189460789}
   - component: {fileID: 1189460788}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53175,7 +53308,7 @@ GameObject:
   - component: {fileID: 1191526669}
   - component: {fileID: 1191526668}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53268,7 +53401,7 @@ GameObject:
   - component: {fileID: 1194694692}
   - component: {fileID: 1194694691}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53733,7 +53866,7 @@ GameObject:
   - component: {fileID: 1198693883}
   - component: {fileID: 1198693882}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54045,7 +54178,7 @@ GameObject:
   - component: {fileID: 1205454687}
   - component: {fileID: 1205454686}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54324,7 +54457,7 @@ GameObject:
   - component: {fileID: 1211384828}
   - component: {fileID: 1211384827}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54603,7 +54736,7 @@ GameObject:
   - component: {fileID: 1216490505}
   - component: {fileID: 1216490504}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54748,7 +54881,7 @@ GameObject:
   - component: {fileID: 1220391013}
   - component: {fileID: 1220391012}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55432,7 +55565,7 @@ GameObject:
   - component: {fileID: 1242806608}
   - component: {fileID: 1242806607}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56210,7 +56343,7 @@ GameObject:
   - component: {fileID: 1249675852}
   - component: {fileID: 1249675851}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56303,7 +56436,7 @@ GameObject:
   - component: {fileID: 1251811922}
   - component: {fileID: 1251811921}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57048,7 +57181,7 @@ GameObject:
   - component: {fileID: 1283220452}
   - component: {fileID: 1283220451}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57234,7 +57367,7 @@ GameObject:
   - component: {fileID: 1285271297}
   - component: {fileID: 1285271296}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57327,7 +57460,7 @@ GameObject:
   - component: {fileID: 1291752220}
   - component: {fileID: 1291752219}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57420,7 +57553,7 @@ GameObject:
   - component: {fileID: 1292925094}
   - component: {fileID: 1292925093}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57885,7 +58018,7 @@ GameObject:
   - component: {fileID: 1304564127}
   - component: {fileID: 1304564126}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59179,7 +59312,7 @@ GameObject:
   - component: {fileID: 1335952942}
   - component: {fileID: 1335952941}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59738,7 +59871,7 @@ GameObject:
   - component: {fileID: 1344386885}
   - component: {fileID: 1344386884}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60017,7 +60150,7 @@ GameObject:
   - component: {fileID: 1350006702}
   - component: {fileID: 1350006701}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60203,7 +60336,7 @@ GameObject:
   - component: {fileID: 1354858084}
   - component: {fileID: 1354858083}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60389,7 +60522,7 @@ GameObject:
   - component: {fileID: 1362813697}
   - component: {fileID: 1362813696}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61073,7 +61206,7 @@ GameObject:
   - component: {fileID: 1379616091}
   - component: {fileID: 1379616090}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61446,7 +61579,7 @@ GameObject:
   - component: {fileID: 1387024623}
   - component: {fileID: 1387024622}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61818,7 +61951,7 @@ GameObject:
   - component: {fileID: 1398777793}
   - component: {fileID: 1398777792}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62469,7 +62602,7 @@ GameObject:
   - component: {fileID: 1419233099}
   - component: {fileID: 1419233098}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63246,7 +63379,7 @@ GameObject:
   - component: {fileID: 1434023003}
   - component: {fileID: 1434023002}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63432,7 +63565,7 @@ GameObject:
   - component: {fileID: 1438607128}
   - component: {fileID: 1438607127}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63711,7 +63844,7 @@ GameObject:
   - component: {fileID: 1443068039}
   - component: {fileID: 1443068038}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64455,7 +64588,7 @@ GameObject:
   - component: {fileID: 1461603583}
   - component: {fileID: 1461603582}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65993,7 +66126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486829495}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66140,7 +66273,7 @@ GameObject:
   - component: {fileID: 1494701946}
   - component: {fileID: 1494701945}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66766,7 +66899,7 @@ GameObject:
   - component: {fileID: 1516287348}
   - component: {fileID: 1516287347}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67045,7 +67178,7 @@ GameObject:
   - component: {fileID: 1518893481}
   - component: {fileID: 1518893480}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67231,7 +67364,7 @@ GameObject:
   - component: {fileID: 1520911352}
   - component: {fileID: 1520911351}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67411,7 +67544,7 @@ GameObject:
   - component: {fileID: 1533236581}
   - component: {fileID: 1533236580}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67969,7 +68102,7 @@ GameObject:
   - component: {fileID: 1543784689}
   - component: {fileID: 1543784688}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68062,7 +68195,7 @@ GameObject:
   - component: {fileID: 1544196240}
   - component: {fileID: 1544196239}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68155,7 +68288,7 @@ GameObject:
   - component: {fileID: 1544552831}
   - component: {fileID: 1544552830}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68281,7 +68414,7 @@ GameObject:
   - component: {fileID: 1548735369}
   - component: {fileID: 1548735368}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68467,7 +68600,7 @@ GameObject:
   - component: {fileID: 1553743923}
   - component: {fileID: 1553743922}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69211,7 +69344,7 @@ GameObject:
   - component: {fileID: 1562133988}
   - component: {fileID: 1562133987}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69304,7 +69437,7 @@ GameObject:
   - component: {fileID: 1562357065}
   - component: {fileID: 1562357064}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69911,7 +70044,7 @@ GameObject:
   - component: {fileID: 1579947222}
   - component: {fileID: 1579947221}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70004,7 +70137,7 @@ GameObject:
   - component: {fileID: 1582574009}
   - component: {fileID: 1582574008}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70283,7 +70416,7 @@ GameObject:
   - component: {fileID: 1587622162}
   - component: {fileID: 1587622161}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70748,7 +70881,7 @@ GameObject:
   - component: {fileID: 1600957405}
   - component: {fileID: 1600957404}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71306,7 +71439,7 @@ GameObject:
   - component: {fileID: 1612983470}
   - component: {fileID: 1612983469}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71804,7 +71937,7 @@ GameObject:
   - component: {fileID: 1632761095}
   - component: {fileID: 1632761094}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72548,7 +72681,7 @@ GameObject:
   - component: {fileID: 1642113642}
   - component: {fileID: 1642113641}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72641,7 +72774,7 @@ GameObject:
   - component: {fileID: 1644576316}
   - component: {fileID: 1644576315}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73107,7 +73240,7 @@ GameObject:
   - component: {fileID: 1653009426}
   - component: {fileID: 1653009425}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73293,7 +73426,7 @@ GameObject:
   - component: {fileID: 1655696223}
   - component: {fileID: 1655696222}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73606,7 +73739,7 @@ GameObject:
   - component: {fileID: 1663602196}
   - component: {fileID: 1663602195}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73978,7 +74111,7 @@ GameObject:
   - component: {fileID: 1667175695}
   - component: {fileID: 1667175694}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74662,7 +74795,7 @@ GameObject:
   - component: {fileID: 1682339459}
   - component: {fileID: 1682339458}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74848,7 +74981,7 @@ GameObject:
   - component: {fileID: 1688603862}
   - component: {fileID: 1688603861}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75034,7 +75167,7 @@ GameObject:
   - component: {fileID: 1689440393}
   - component: {fileID: 1689440392}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75719,8 +75852,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697362445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.125, y: 3.494, z: 0}
-  m_LocalScale: {x: 49.958103, y: 0.023384, z: 24}
+  m_LocalPosition: {x: 0.125, y: 3.494, z: 2.5}
+  m_LocalScale: {x: 49.958126, y: 0.023384, z: 19}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -76110,7 +76243,7 @@ GameObject:
   - component: {fileID: 1699123169}
   - component: {fileID: 1699123168}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76441,7 +76574,7 @@ GameObject:
   - component: {fileID: 1708564484}
   - component: {fileID: 1708564483}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77195,7 +77328,7 @@ GameObject:
   - component: {fileID: 1724083984}
   - component: {fileID: 1724083983}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77381,7 +77514,7 @@ GameObject:
   - component: {fileID: 1725232334}
   - component: {fileID: 1725232333}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77846,7 +77979,7 @@ GameObject:
   - component: {fileID: 1737097426}
   - component: {fileID: 1737097425}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78683,7 +78816,7 @@ GameObject:
   - component: {fileID: 1761393100}
   - component: {fileID: 1761393099}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78962,7 +79095,7 @@ GameObject:
   - component: {fileID: 1782787336}
   - component: {fileID: 1782787335}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79055,7 +79188,7 @@ GameObject:
   - component: {fileID: 1782984296}
   - component: {fileID: 1782984295}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79148,7 +79281,7 @@ GameObject:
   - component: {fileID: 1785212770}
   - component: {fileID: 1785212769}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79613,7 +79746,7 @@ GameObject:
   - component: {fileID: 1795936888}
   - component: {fileID: 1795936887}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79706,7 +79839,7 @@ GameObject:
   - component: {fileID: 1798245601}
   - component: {fileID: 1798245600}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80172,7 +80305,7 @@ GameObject:
   - component: {fileID: 1813138508}
   - component: {fileID: 1813138507}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80265,7 +80398,7 @@ GameObject:
   - component: {fileID: 1813193672}
   - component: {fileID: 1813193671}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80686,7 +80819,7 @@ GameObject:
   - component: {fileID: 1828092851}
   - component: {fileID: 1828092850}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80779,7 +80912,7 @@ GameObject:
   - component: {fileID: 1828692836}
   - component: {fileID: 1828692835}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81376,7 +81509,7 @@ GameObject:
   - component: {fileID: 1852496793}
   - component: {fileID: 1852496792}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81554,7 +81687,7 @@ GameObject:
   - component: {fileID: 1861466391}
   - component: {fileID: 1861466390}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81647,7 +81780,7 @@ GameObject:
   - component: {fileID: 1861869945}
   - component: {fileID: 1861869944}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83085,7 +83218,7 @@ GameObject:
   - component: {fileID: 1891709906}
   - component: {fileID: 1891709905}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83178,7 +83311,7 @@ GameObject:
   - component: {fileID: 1896318319}
   - component: {fileID: 1896318318}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83364,7 +83497,7 @@ GameObject:
   - component: {fileID: 1897400515}
   - component: {fileID: 1897400514}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83643,7 +83776,7 @@ GameObject:
   - component: {fileID: 1906247353}
   - component: {fileID: 1906247352}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83878,7 +84011,7 @@ GameObject:
   - component: {fileID: 1915084440}
   - component: {fileID: 1915084439}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83971,7 +84104,7 @@ GameObject:
   - component: {fileID: 1919440143}
   - component: {fileID: 1919440142}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84994,7 +85127,7 @@ GameObject:
   - component: {fileID: 1935687926}
   - component: {fileID: 1935687925}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85087,7 +85220,7 @@ GameObject:
   - component: {fileID: 1940167083}
   - component: {fileID: 1940167082}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85180,7 +85313,7 @@ GameObject:
   - component: {fileID: 1940622640}
   - component: {fileID: 1940622639}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86939,7 +87072,7 @@ GameObject:
   - component: {fileID: 1989180123}
   - component: {fileID: 1989180122}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87877,7 +88010,7 @@ GameObject:
   - component: {fileID: 2016677481}
   - component: {fileID: 2016677480}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88156,7 +88289,7 @@ GameObject:
   - component: {fileID: 2018776204}
   - component: {fileID: 2018776203}
   m_Layer: 0
-  m_Name: FramePanjang
+  m_Name: FramePanjang-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88435,7 +88568,7 @@ GameObject:
   - component: {fileID: 2025904279}
   - component: {fileID: 2025904278}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88714,7 +88847,7 @@ GameObject:
   - component: {fileID: 2033924896}
   - component: {fileID: 2033924895}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88807,7 +88940,7 @@ GameObject:
   - component: {fileID: 2037702645}
   - component: {fileID: 2037702644}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88990,7 +89123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042847594}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89509,7 +89642,7 @@ GameObject:
   - component: {fileID: 2049536259}
   - component: {fileID: 2049536258}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89602,7 +89735,7 @@ GameObject:
   - component: {fileID: 2050780329}
   - component: {fileID: 2050780328}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89974,7 +90107,7 @@ GameObject:
   - component: {fileID: 2056647645}
   - component: {fileID: 2056647644}
   m_Layer: 0
-  m_Name: Besi
+  m_Name: Besi-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90906,7 +91039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2076092927}
   m_Layer: 0
-  m_Name: DindingSamping
+  m_Name: DindingSamping-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90961,7 +91094,7 @@ GameObject:
   - component: {fileID: 2077032340}
   - component: {fileID: 2077032339}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91054,7 +91187,7 @@ GameObject:
   - component: {fileID: 2078455957}
   - component: {fileID: 2078455956}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93350,7 +93483,7 @@ GameObject:
   - component: {fileID: 2110853276}
   - component: {fileID: 2110853275}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93536,7 +93669,7 @@ GameObject:
   - component: {fileID: 2116060685}
   - component: {fileID: 2116060684}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93722,7 +93855,7 @@ GameObject:
   - component: {fileID: 2126078583}
   - component: {fileID: 2126078582}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93815,7 +93948,7 @@ GameObject:
   - component: {fileID: 2128521314}
   - component: {fileID: 2128521313}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: Frame-00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94127,7 +94260,7 @@ GameObject:
   - component: {fileID: 2141657328}
   - component: {fileID: 2141657327}
   m_Layer: 0
-  m_Name: Kaca
+  m_Name: Kaca-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
