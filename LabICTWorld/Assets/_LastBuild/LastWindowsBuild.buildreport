@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!668709126 &-9208494140954579209
+--- !u!668709126 &-9072819457913409898
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: scene-standalonewindows64-samplescene.vrcw
@@ -9,236 +9,7 @@ BuiltAssetBundleInfoSet:
   - bundleName: LabICTWorld
     bundleArchiveFile: 5
     packagedFileIndices: 04000000
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 637980644581946818
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    options: 16
-    assetBundleOptions: 32
-    outputPath: C:/Users/umaru/AppData/Local/Temp/DefaultCompany/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
-    crc: 1630616338
-    totalSize: 158634
-    totalTimeTicks: 171503939
-    totalErrors: 0
-    totalWarnings: 0
-    buildType: 1
-    buildResult: 1
-  m_Files:
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene
-    role: Scene
-    id: 0
-    totalSize: 307880
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 508916
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
-    role: AssetBundle
-    id: 2
-    totalSize: 156011
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 3
-    totalSize: 1398
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld/CAB-58f7cf970d6698a1ebf3092fd14fc5ec
-    role: ResourcesFile
-    id: 4
-    totalSize: 4312
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld
-    role: ManifestAssetBundle
-    id: 5
-    totalSize: 1055
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld.manifest
-    role: AssetBundleTextManifest
-    id: 6
-    totalSize: 170
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 171503939
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 146485
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 90210557
-    depth: 1
-    messages: []
-  - stepName: Build player
-    durationTicks: 26134895
-    depth: 1
-    messages: []
-  - stepName: Prepare assets for target platform
-    durationTicks: 2209655
-    depth: 2
-    messages: []
-  - stepName: Building scenes
-    durationTicks: 6189653
-    depth: 2
-    messages: []
-  - stepName: Building scene Assets/Scenes/SampleScene.unity
-    durationTicks: 6162828
-    depth: 3
-    messages: []
-  - stepName: Writing asset files
-    durationTicks: 5090132
-    depth: 2
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
-    durationTicks: 4993800
-    depth: 3
-    messages: []
-  - stepName: Creating compressed player package
-    durationTicks: 2114932
-    depth: 2
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 145911
-    depth: 2
-    messages: []
-  m_Appendices:
-  - {fileID: -9208494140954579209}
-  - {fileID: 4119512909188465501}
-  - {fileID: 6260566869942970517}
-  - {fileID: 5005679055070410562}
-  - {fileID: 4143997005398256086}
---- !u!1126 &4119512909188465501
-PackedAssets:
-  m_File: 1
-  m_ShortPath: BuildPlayer-SampleScene.sharedAssets
-  m_Overhead: 57855
-  m_Contents:
-  - fileID: 1
-    classID: 150
-    packedSize: 61
-    offset: 58248
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 2
-    classID: 142
-    packedSize: 160
-    offset: 58312
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 3
-    classID: 21
-    packedSize: 1052
-    offset: 58472
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 4
-    classID: 21
-    packedSize: 252
-    offset: 59528
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 5
-    classID: 21
-    packedSize: 928
-    offset: 59784
-    sourceAssetGUID: 9610b659f5f4a4b4f8074be8e76e0a6d
-    buildTimeAssetPath: Assets/Materials/Black.mat
-  - fileID: 6
-    classID: 21
-    packedSize: 944
-    offset: 60712
-    sourceAssetGUID: a9c95cc770080b9458380edfb64d1ea9
-    buildTimeAssetPath: Assets/Materials/Glass.mat
-  - fileID: 7
-    classID: 21
-    packedSize: 892
-    offset: 61656
-    sourceAssetGUID: ab18d4e9dfe53304ca408c50f4383aec
-    buildTimeAssetPath: Assets/Materials/Handle.mat
-  - fileID: 8
-    classID: 21
-    packedSize: 940
-    offset: 62552
-    sourceAssetGUID: 3405e38b366bb7f48bc85869a53f5dc2
-    buildTimeAssetPath: Assets/Materials/None.mat
-  - fileID: 9
-    classID: 21
-    packedSize: 888
-    offset: 63496
-    sourceAssetGUID: 5179181472d4edd419530ac25b80fdf8
-    buildTimeAssetPath: Assets/Materials/Wall.mat
-  - fileID: 10
-    classID: 48
-    packedSize: 414004
-    offset: 64384
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 11
-    classID: 48
-    packedSize: 13452
-    offset: 478392
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 12
-    classID: 115
-    packedSize: 96
-    offset: 57824
-    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
-    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 13
-    classID: 115
-    packedSize: 108
-    offset: 57920
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 14
-    classID: 115
-    packedSize: 88
-    offset: 58032
-    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
-    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
-  - fileID: 15
-    classID: 115
-    packedSize: 128
-    offset: 58120
-    sourceAssetGUID: bf61d954ecb803046953c666facfb904
-    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 16
-    classID: 114
-    packedSize: 17068
-    offset: 491848
-    sourceAssetGUID: 62513b0cf7b09034fbe336747d3d4d5f
-    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
---- !u!1126 &4143997005398256086
-PackedAssets:
-  m_File: 4
-  m_ShortPath: CAB-58f7cf970d6698a1ebf3092fd14fc5ec
-  m_Overhead: 4096
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    offset: 4096
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 112
-    offset: 4200
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!641289076 &5005679055070410562
-AudioBuildInfo:
-  m_IsAudioDisabled: 0
-  m_AudioClipCount: 0
-  m_AudioMixerCount: 0
---- !u!382020655 &6260566869942970517
+--- !u!382020655 &-5242647289161397373
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
@@ -287,3 +58,300 @@ PluginBuildInfo:
   - zlib64Plastic
   - Unity.Plastic.Antlr3.Runtime
   - lz4x64Plastic
+--- !u!641289076 &-165438496979153645
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637983137343156901
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/umaru/AppData/Local/Temp/DefaultCompany/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
+    crc: 4120753648
+    totalSize: 16542064
+    totalTimeTicks: 596877420
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene
+    role: Scene
+    id: 0
+    totalSize: 2206744
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 35269068
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 16539363
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 1476
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld/CAB-58f7cf970d6698a1ebf3092fd14fc5ec
+    role: ResourcesFile
+    id: 4
+    totalSize: 4312
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1055
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 170
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 596877420
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 462604
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 189148951
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 337881835
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2460708
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 109714875
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/SampleScene.unity
+    durationTicks: 109691056
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 132300766
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
+    durationTicks: 132208386
+    depth: 3
+    messages:
+    - type: 3
+      content: HTTPFormUseage:UrlEncoded
+  - stepName: Creating compressed player package
+    durationTicks: 75250476
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 1954683
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -9072819457913409898}
+  - {fileID: 7352987605561698122}
+  - {fileID: -5242647289161397373}
+  - {fileID: -165438496979153645}
+  - {fileID: 2144627157287112967}
+--- !u!1126 &2144627157287112967
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-58f7cf970d6698a1ebf3092fd14fc5ec
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &7352987605561698122
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-SampleScene.sharedAssets
+  m_Overhead: 61643
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 61
+    offset: 62024
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 160
+    offset: 62088
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 928
+    offset: 62248
+    sourceAssetGUID: 9610b659f5f4a4b4f8074be8e76e0a6d
+    buildTimeAssetPath: Assets/Materials/Black.mat
+  - fileID: 4
+    classID: 21
+    packedSize: 892
+    offset: 63176
+    sourceAssetGUID: 226db9bc978d38943a5906c79152d265
+    buildTimeAssetPath: Assets/Materials/Floor.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 944
+    offset: 64072
+    sourceAssetGUID: a9c95cc770080b9458380edfb64d1ea9
+    buildTimeAssetPath: Assets/Materials/Glass.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 892
+    offset: 65016
+    sourceAssetGUID: ab18d4e9dfe53304ca408c50f4383aec
+    buildTimeAssetPath: Assets/Materials/Handle.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 900
+    offset: 65912
+    sourceAssetGUID: f1678695396cf2540b8fc7f9ac730ab6
+    buildTimeAssetPath: Assets/Materials/Lamp.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 888
+    offset: 66816
+    sourceAssetGUID: 6bb1dc3ec1e42ed478a9e52260c51c32
+    buildTimeAssetPath: Assets/Materials/Lock.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 640
+    offset: 67704
+    sourceAssetGUID: 3405e38b366bb7f48bc85869a53f5dc2
+    buildTimeAssetPath: Assets/Materials/None.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 888
+    offset: 68344
+    sourceAssetGUID: b50c8a50cb2248a418f3e71ae87db3ce
+    buildTimeAssetPath: Assets/Materials/Roof.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 900
+    offset: 69232
+    sourceAssetGUID: dafb3a620a57462459aa8c45a4b82b17
+    buildTimeAssetPath: Assets/Materials/SphereMaterial.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 980
+    offset: 70136
+    sourceAssetGUID: d890ecc9b4a5047489dc0a7363e412bc
+    buildTimeAssetPath: Assets/Materials/Testing.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 888
+    offset: 71120
+    sourceAssetGUID: 5179181472d4edd419530ac25b80fdf8
+    buildTimeAssetPath: Assets/Materials/Wall.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 896
+    offset: 72008
+    sourceAssetGUID: af62657571bf54a4e9eed50f8ebb8b8b
+    buildTimeAssetPath: Assets/Materials/WallSpecial.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 608
+    offset: 72904
+    sourceAssetGUID: 16bc8a9d5451ca44d8f70575adbece3a
+    buildTimeAssetPath: Assets/SkySeries Freebie/PlanetaryEarth.mat
+  - fileID: 16
+    classID: 28
+    packedSize: 174912
+    offset: 73512
+    sourceAssetGUID: 49692eda35f1f8c4b8a536b891221c4c
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Plaster_Plain_512_roughness.tif
+  - fileID: 17
+    classID: 28
+    packedSize: 349684
+    offset: 248424
+    sourceAssetGUID: a5859f280de78204a8ebc1cd146c6eeb
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Plaster_Plain_512_normal.tif
+  - fileID: 18
+    classID: 28
+    packedSize: 174908
+    offset: 598112
+    sourceAssetGUID: d8e671a896a95e84a811ec624ff29799
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Plaster_Plain_512_height.tif
+  - fileID: 19
+    classID: 48
+    packedSize: 913640
+    offset: 773024
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 20
+    classID: 48
+    packedSize: 5480
+    offset: 1686664
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 21
+    classID: 48
+    packedSize: 5068
+    offset: 1692144
+    sourceAssetGUID: d5b89f0c74ccf5049ba803c14a090378
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Particle-Multiply.shader
+  - fileID: 22
+    classID: 89
+    packedSize: 33554780
+    offset: 1697216
+    sourceAssetGUID: 3675d0c3c874f6b479bab57eb7e68c90
+    buildTimeAssetPath: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
+  - fileID: 23
+    classID: 115
+    packedSize: 96
+    offset: 61600
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 24
+    classID: 115
+    packedSize: 108
+    offset: 61696
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 25
+    classID: 115
+    packedSize: 88
+    offset: 61808
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 26
+    classID: 115
+    packedSize: 128
+    offset: 61896
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 27
+    classID: 114
+    packedSize: 17068
+    offset: 35252000
+    sourceAssetGUID: 62513b0cf7b09034fbe336747d3d4d5f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
