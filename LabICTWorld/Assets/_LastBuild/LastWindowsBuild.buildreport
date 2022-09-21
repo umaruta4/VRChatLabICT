@@ -1,15 +1,124 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!668709126 &-9072819457913409898
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-samplescene.vrcw
-    bundleArchiveFile: 2
-    packagedFileIndices: 0000000001000000
-  - bundleName: LabICTWorld
-    bundleArchiveFile: 5
-    packagedFileIndices: 04000000
---- !u!382020655 &-5242647289161397373
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637993064324954339
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/umaru/AppData/Local/Temp/DefaultCompany/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
+    crc: 1815152755
+    totalSize: 65515915
+    totalTimeTicks: 1534360800
+    totalErrors: 1
+    totalWarnings: 1
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene
+    role: Scene
+    id: 0
+    totalSize: 282990192
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 44381368
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 65510560
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 4130
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld/CAB-58f7cf970d6698a1ebf3092fd14fc5ec
+    role: ResourcesFile
+    id: 4
+    totalSize: 4312
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1055
+  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 170
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 1534360800
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 3004170
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 102450354
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 1354765828
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2910147
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 262708755
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/SampleScene.unity
+    durationTicks: 262687692
+    depth: 3
+    messages:
+    - type: 0
+      content: 'You are trying to replace or create a Prefab from the instance ''InputField''
+        that references a missing script. This is not allowed.
+
+        Please change
+        the script or remove it from the GameObject.'
+    - type: 2
+      content: Script attached to 'InputField' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+  - stepName: Writing asset files
+    durationTicks: 212276746
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
+    durationTicks: 212149641
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 836680129
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 9258891
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 4195382617626107438}
+  - {fileID: 6659326690146860420}
+  - {fileID: 4000404349749988674}
+  - {fileID: 1519998243526945029}
+  - {fileID: 5615603453197969295}
+--- !u!641289076 &1519998243526945029
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!382020655 &4000404349749988674
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
@@ -42,15 +151,19 @@ PluginBuildInfo:
   - AudioPluginOculusSpatializer
   m_EditorPlugins:
   - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
   - VRC.Udon.VRCTypeResolverModules
   - AppleEventIntegration
   - liblz4Plastic
   - Unity.Plastic.Newtonsoft.Json
   - unityplastic
   - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
   - VRC.Udon.UAssembly
   - VRC.Udon.Graph
   - UnityEditor.VR
+  - 0Harmony
   - VRCSDKBase-Editor
   - VRC.Udon.VRCGraphModules
   - log4netPlastic
@@ -58,118 +171,16 @@ PluginBuildInfo:
   - zlib64Plastic
   - Unity.Plastic.Antlr3.Runtime
   - lz4x64Plastic
---- !u!641289076 &-165438496979153645
-AudioBuildInfo:
-  m_IsAudioDisabled: 0
-  m_AudioClipCount: 0
-  m_AudioMixerCount: 0
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 637983137343156901
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    options: 16
-    assetBundleOptions: 32
-    outputPath: C:/Users/umaru/AppData/Local/Temp/DefaultCompany/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
-    crc: 4120753648
-    totalSize: 16542064
-    totalTimeTicks: 596877420
-    totalErrors: 0
-    totalWarnings: 0
-    buildType: 1
-    buildResult: 1
-  m_Files:
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene
-    role: Scene
-    id: 0
-    totalSize: 2206744
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 35269068
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw
-    role: AssetBundle
-    id: 2
-    totalSize: 16539363
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/scene-standalonewindows64-samplescene.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 3
-    totalSize: 1476
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld/CAB-58f7cf970d6698a1ebf3092fd14fc5ec
-    role: ResourcesFile
-    id: 4
-    totalSize: 4312
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld
-    role: ManifestAssetBundle
-    id: 5
-    totalSize: 1055
-  - path: D:/Program Files/Unity/VRChatLabICT/LabICTWorld/LabICTWorld.manifest
-    role: AssetBundleTextManifest
-    id: 6
-    totalSize: 170
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 596877420
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 462604
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 189148951
-    depth: 1
-    messages: []
-  - stepName: Build player
-    durationTicks: 337881835
-    depth: 1
-    messages: []
-  - stepName: Prepare assets for target platform
-    durationTicks: 2460708
-    depth: 2
-    messages: []
-  - stepName: Building scenes
-    durationTicks: 109714875
-    depth: 2
-    messages: []
-  - stepName: Building scene Assets/Scenes/SampleScene.unity
-    durationTicks: 109691056
-    depth: 3
-    messages: []
-  - stepName: Writing asset files
-    durationTicks: 132300766
-    depth: 2
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
-    durationTicks: 132208386
-    depth: 3
-    messages:
-    - type: 3
-      content: HTTPFormUseage:UrlEncoded
-  - stepName: Creating compressed player package
-    durationTicks: 75250476
-    depth: 2
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 1954683
-    depth: 2
-    messages: []
-  m_Appendices:
-  - {fileID: -9072819457913409898}
-  - {fileID: 7352987605561698122}
-  - {fileID: -5242647289161397373}
-  - {fileID: -165438496979153645}
-  - {fileID: 2144627157287112967}
---- !u!1126 &2144627157287112967
+--- !u!668709126 &4195382617626107438
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-samplescene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: LabICTWorld
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!1126 &5615603453197969295
 PackedAssets:
   m_File: 4
   m_ShortPath: CAB-58f7cf970d6698a1ebf3092fd14fc5ec
@@ -187,171 +198,1161 @@ PackedAssets:
     offset: 4200
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &7352987605561698122
+--- !u!1126 &6659326690146860420
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-SampleScene.sharedAssets
-  m_Overhead: 61643
+  m_Overhead: 111419
   m_Contents:
   - fileID: 1
     classID: 150
-    packedSize: 61
-    offset: 62024
+    packedSize: 121
+    offset: 113608
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 2
     classID: 142
     packedSize: 160
-    offset: 62088
+    offset: 113736
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 3
     classID: 21
-    packedSize: 928
-    offset: 62248
-    sourceAssetGUID: 9610b659f5f4a4b4f8074be8e76e0a6d
-    buildTimeAssetPath: Assets/Materials/Black.mat
+    packedSize: 900
+    offset: 113896
+    sourceAssetGUID: 10fde69f6e101514792f5cdb2cf5b3d3
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/Semar Final.fbx
   - fileID: 4
     classID: 21
-    packedSize: 892
-    offset: 63176
-    sourceAssetGUID: 226db9bc978d38943a5906c79152d265
-    buildTimeAssetPath: Assets/Materials/Floor.mat
+    packedSize: 900
+    offset: 114800
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
   - fileID: 5
     classID: 21
-    packedSize: 944
-    offset: 64072
-    sourceAssetGUID: a9c95cc770080b9458380edfb64d1ea9
-    buildTimeAssetPath: Assets/Materials/Glass.mat
+    packedSize: 896
+    offset: 115704
+    sourceAssetGUID: 533a7a9d3fb0f7142945671205d4255b
+    buildTimeAssetPath: Assets/Prefabs/PC/model.dae
   - fileID: 6
     classID: 21
     packedSize: 892
-    offset: 65016
-    sourceAssetGUID: ab18d4e9dfe53304ca408c50f4383aec
-    buildTimeAssetPath: Assets/Materials/Handle.mat
+    offset: 116600
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
   - fileID: 7
     classID: 21
-    packedSize: 900
-    offset: 65912
-    sourceAssetGUID: f1678695396cf2540b8fc7f9ac730ab6
-    buildTimeAssetPath: Assets/Materials/Lamp.mat
+    packedSize: 892
+    offset: 117496
+    sourceAssetGUID: 10fde69f6e101514792f5cdb2cf5b3d3
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/Semar Final.fbx
   - fileID: 8
     classID: 21
-    packedSize: 888
-    offset: 66816
-    sourceAssetGUID: 6bb1dc3ec1e42ed478a9e52260c51c32
-    buildTimeAssetPath: Assets/Materials/Lock.mat
+    packedSize: 892
+    offset: 118392
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
   - fileID: 9
     classID: 21
-    packedSize: 640
-    offset: 67704
-    sourceAssetGUID: 3405e38b366bb7f48bc85869a53f5dc2
-    buildTimeAssetPath: Assets/Materials/None.mat
+    packedSize: 896
+    offset: 119288
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
   - fileID: 10
     classID: 21
-    packedSize: 888
-    offset: 68344
-    sourceAssetGUID: b50c8a50cb2248a418f3e71ae87db3ce
-    buildTimeAssetPath: Assets/Materials/Roof.mat
+    packedSize: 896
+    offset: 120184
+    sourceAssetGUID: 89f5f949760469b48b2faa401395e447
+    buildTimeAssetPath: Assets/Prefabs/Chair/APezzi1.obj
   - fileID: 11
     classID: 21
-    packedSize: 900
-    offset: 69232
-    sourceAssetGUID: dafb3a620a57462459aa8c45a4b82b17
-    buildTimeAssetPath: Assets/Materials/SphereMaterial.mat
+    packedSize: 892
+    offset: 121080
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
   - fileID: 12
     classID: 21
-    packedSize: 980
-    offset: 70136
-    sourceAssetGUID: d890ecc9b4a5047489dc0a7363e412bc
-    buildTimeAssetPath: Assets/Materials/Testing.mat
+    packedSize: 1052
+    offset: 121976
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
   - fileID: 13
     classID: 21
-    packedSize: 888
-    offset: 71120
-    sourceAssetGUID: 5179181472d4edd419530ac25b80fdf8
-    buildTimeAssetPath: Assets/Materials/Wall.mat
+    packedSize: 928
+    offset: 123032
+    sourceAssetGUID: 110a7835d223d1a4da68b7f495be12b6
+    buildTimeAssetPath: Assets/Materials/ADG_Textures/Plank Textures/Planks1/Planks1a.mat
   - fileID: 14
     classID: 21
-    packedSize: 896
-    offset: 72008
-    sourceAssetGUID: af62657571bf54a4e9eed50f8ebb8b8b
-    buildTimeAssetPath: Assets/Materials/WallSpecial.mat
+    packedSize: 928
+    offset: 123960
+    sourceAssetGUID: 9610b659f5f4a4b4f8074be8e76e0a6d
+    buildTimeAssetPath: Assets/Materials/Black.mat
   - fileID: 15
     classID: 21
-    packedSize: 608
-    offset: 72904
-    sourceAssetGUID: 16bc8a9d5451ca44d8f70575adbece3a
-    buildTimeAssetPath: Assets/SkySeries Freebie/PlanetaryEarth.mat
+    packedSize: 904
+    offset: 124888
+    sourceAssetGUID: ab3f25be48ed16b4fa40f03e837830fb
+    buildTimeAssetPath: Assets/Materials/Floor4x4.mat
   - fileID: 16
+    classID: 21
+    packedSize: 908
+    offset: 125792
+    sourceAssetGUID: 226db9bc978d38943a5906c79152d265
+    buildTimeAssetPath: Assets/Materials/FloorMassive.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 944
+    offset: 126704
+    sourceAssetGUID: a9c95cc770080b9458380edfb64d1ea9
+    buildTimeAssetPath: Assets/Materials/Glass.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 892
+    offset: 127648
+    sourceAssetGUID: ab18d4e9dfe53304ca408c50f4383aec
+    buildTimeAssetPath: Assets/Materials/Handle.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 900
+    offset: 128544
+    sourceAssetGUID: f1678695396cf2540b8fc7f9ac730ab6
+    buildTimeAssetPath: Assets/Materials/Lamp.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 888
+    offset: 129448
+    sourceAssetGUID: 6bb1dc3ec1e42ed478a9e52260c51c32
+    buildTimeAssetPath: Assets/Materials/Lock.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 640
+    offset: 130336
+    sourceAssetGUID: 3405e38b366bb7f48bc85869a53f5dc2
+    buildTimeAssetPath: Assets/Materials/None.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 888
+    offset: 130976
+    sourceAssetGUID: 674e5b2bf9d5df44391bd15817d8d62d
+    buildTimeAssetPath: Assets/Materials/PC.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 892
+    offset: 131864
+    sourceAssetGUID: 7305618214dcaf6489050f7bcedfb34b
+    buildTimeAssetPath: Assets/Materials/PCPart.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 888
+    offset: 132760
+    sourceAssetGUID: b50c8a50cb2248a418f3e71ae87db3ce
+    buildTimeAssetPath: Assets/Materials/Roof.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 900
+    offset: 133648
+    sourceAssetGUID: dafb3a620a57462459aa8c45a4b82b17
+    buildTimeAssetPath: Assets/Materials/SphereMaterial.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 904
+    offset: 134552
+    sourceAssetGUID: 6669f22a193f46142b752f1ee87ab89f
+    buildTimeAssetPath: Assets/Materials/Table.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 980
+    offset: 135456
+    sourceAssetGUID: d890ecc9b4a5047489dc0a7363e412bc
+    buildTimeAssetPath: Assets/Materials/Testing.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 888
+    offset: 136440
+    sourceAssetGUID: 5179181472d4edd419530ac25b80fdf8
+    buildTimeAssetPath: Assets/Materials/Wall.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 944
+    offset: 137328
+    sourceAssetGUID: af62657571bf54a4e9eed50f8ebb8b8b
+    buildTimeAssetPath: Assets/Materials/WallSpecial.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 896
+    offset: 138272
+    sourceAssetGUID: d8499c6a9a09c9c459502caacb5d09e0
+    buildTimeAssetPath: Assets/Photo/Materials/Brosur_fix.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 896
+    offset: 139168
+    sourceAssetGUID: c594d8992807ba545bb5c6443d2fea17
+    buildTimeAssetPath: Assets/Prefabs/Chair/New Material.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 888
+    offset: 140064
+    sourceAssetGUID: ec3c3537b137dac46a806245f2da69f5
+    buildTimeAssetPath: Assets/Prefabs/PC/textures/PC.mat
+  - fileID: 33
+    classID: 21
+    packedSize: 896
+    offset: 140952
+    sourceAssetGUID: 1a5283a3450df3a41b850bdba7a2ff10
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/textures/Kain Cepot.mat
+  - fileID: 34
+    classID: 21
+    packedSize: 896
+    offset: 141848
+    sourceAssetGUID: 184cc878df07da849aede1608f7e3d16
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/textures/Muka Cepot.mat
+  - fileID: 35
+    classID: 21
+    packedSize: 896
+    offset: 142744
+    sourceAssetGUID: f60ac75d177cb864e811e12391fa6000
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/textures/Sarung Cepot.mat
+  - fileID: 36
+    classID: 21
+    packedSize: 896
+    offset: 143640
+    sourceAssetGUID: 8b126f5c9260b5d449d900e4ff346f7c
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/textures/Kain Semar.mat
+  - fileID: 37
+    classID: 21
+    packedSize: 896
+    offset: 144536
+    sourceAssetGUID: 8bc8f676df7a2794d81508b4fd582fc2
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/textures/Muka Semar.mat
+  - fileID: 38
+    classID: 21
+    packedSize: 896
+    offset: 145432
+    sourceAssetGUID: 419ae9fed5372564c995339c60fd7ebf
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/eraser (0).mat
+  - fileID: 39
+    classID: 21
+    packedSize: 896
+    offset: 146328
+    sourceAssetGUID: 3f13a5d1eb038764b804d1aabffed55f
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/eraser (1).mat
+  - fileID: 40
+    classID: 21
+    packedSize: 896
+    offset: 147224
+    sourceAssetGUID: e86e7281176dae945bd655f34805ed55
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/eraser (2).mat
+  - fileID: 41
+    classID: 21
+    packedSize: 896
+    offset: 148120
+    sourceAssetGUID: 4455a0149b18e614483058a1d4ace637
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/eraser_white.mat
+  - fileID: 42
+    classID: 21
+    packedSize: 132
+    offset: 149016
+    sourceAssetGUID: 6b64136272204b8458c4bd55be9f97cb
+    buildTimeAssetPath: Assets/QvPen/Material/Ink_PC.mat
+  - fileID: 43
+    classID: 21
+    packedSize: 988
+    offset: 149152
+    sourceAssetGUID: e52e94d0a6629e14c916b1fa6580c2bc
+    buildTimeAssetPath: Assets/QvPen/Material/Ink_Quest.mat
+  - fileID: 44
+    classID: 21
+    packedSize: 932
+    offset: 150144
+    sourceAssetGUID: 51d72acecdb1ba249957953415f8e29b
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (0).mat
+  - fileID: 45
+    classID: 21
+    packedSize: 932
+    offset: 151080
+    sourceAssetGUID: b24ed807dd7dc224baf5390f46738647
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (1).mat
+  - fileID: 46
+    classID: 21
+    packedSize: 932
+    offset: 152016
+    sourceAssetGUID: 43d0ae848fdfe6d4495a87f8e80e386b
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (10).mat
+  - fileID: 47
+    classID: 21
+    packedSize: 932
+    offset: 152952
+    sourceAssetGUID: 254a177cd9c57e84683d0fd3bd1be46d
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (11).mat
+  - fileID: 48
+    classID: 21
+    packedSize: 932
+    offset: 153888
+    sourceAssetGUID: e01134920adbcf549ac7f52ceeb583a2
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (12).mat
+  - fileID: 49
+    classID: 21
+    packedSize: 932
+    offset: 154824
+    sourceAssetGUID: 56778de2f4060f14fb06bc8cba7e30b7
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (13).mat
+  - fileID: 50
+    classID: 21
+    packedSize: 896
+    offset: 155760
+    sourceAssetGUID: 5b91c5c74862dba4d9fc2e8ae3e07b70
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (14).mat
+  - fileID: 51
+    classID: 21
+    packedSize: 932
+    offset: 156656
+    sourceAssetGUID: b3889ddf2a4bd9346a4843eb47e0acb1
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (2).mat
+  - fileID: 52
+    classID: 21
+    packedSize: 932
+    offset: 157592
+    sourceAssetGUID: 49c7ed6d767622b4fadcf200017fd44f
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (3).mat
+  - fileID: 53
+    classID: 21
+    packedSize: 932
+    offset: 158528
+    sourceAssetGUID: dd75a5d3bd47a0c489c0fd71aff39ede
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (4).mat
+  - fileID: 54
+    classID: 21
+    packedSize: 932
+    offset: 159464
+    sourceAssetGUID: a393dafb2990e2c4fa0628ace4444efa
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (5).mat
+  - fileID: 55
+    classID: 21
+    packedSize: 932
+    offset: 160400
+    sourceAssetGUID: 88aa935393607b6409baa45499f5156b
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (6).mat
+  - fileID: 56
+    classID: 21
+    packedSize: 932
+    offset: 161336
+    sourceAssetGUID: 9db9f48f3ee803d448488d4368a140f9
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (7).mat
+  - fileID: 57
+    classID: 21
+    packedSize: 932
+    offset: 162272
+    sourceAssetGUID: 87529c80faca0ef4a881efba652815f3
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (8).mat
+  - fileID: 58
+    classID: 21
+    packedSize: 932
+    offset: 163208
+    sourceAssetGUID: 885a01c79ffd5024489a1fb31f3fffb5
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (9).mat
+  - fileID: 59
+    classID: 21
+    packedSize: 488
+    offset: 164144
+    sourceAssetGUID: d85fbf95e8c57ae4ba4e7e74bc5ae854
+    buildTimeAssetPath: Assets/QvPen/Material/pointer/pointer_idle.mat
+  - fileID: 60
+    classID: 21
+    packedSize: 488
+    offset: 164632
+    sourceAssetGUID: 62da9edddc7701d4ab4956aceacbcd96
+    buildTimeAssetPath: Assets/QvPen/Material/pointer/pointer_use.mat
+  - fileID: 61
+    classID: 21
+    packedSize: 484
+    offset: 165120
+    sourceAssetGUID: 48f32ce8d7140f045a2c568df3a8d9bd
+    buildTimeAssetPath: Assets/QvPen/Material/pointer/reticle.mat
+  - fileID: 62
+    classID: 21
+    packedSize: 888
+    offset: 165608
+    sourceAssetGUID: c2af845bdfb561149b08ba13167ff040
+    buildTimeAssetPath: Assets/QvPen/Material/wood.mat
+  - fileID: 63
+    classID: 21
+    packedSize: 404
+    offset: 166496
+    sourceAssetGUID: 5b21c6a8ce40f9641bd1204324b90b2c
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/DSGWP.mat
+  - fileID: 64
+    classID: 21
+    packedSize: 680
+    offset: 166904
+    sourceAssetGUID: 5f9bbf478c2b961468f0472188c111fb
+    buildTimeAssetPath: Assets/USharpVideo/Materials/UIMaterial.mat
+  - fileID: 65
+    classID: 21
+    packedSize: 1036
+    offset: 167584
+    sourceAssetGUID: f9f0ca4e1c93d7c449df855cc90deab0
+    buildTimeAssetPath: Assets/USharpVideo/Materials/VideoScreen.mat
+  - fileID: 66
+    classID: 21
+    packedSize: 892
+    offset: 168624
+    sourceAssetGUID: 10fde69f6e101514792f5cdb2cf5b3d3
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/Semar Final.fbx
+  - fileID: 67
+    classID: 21
+    packedSize: 892
+    offset: 169520
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
+  - fileID: 68
+    classID: 21
+    packedSize: 892
+    offset: 170416
+    sourceAssetGUID: 89f5f949760469b48b2faa401395e447
+    buildTimeAssetPath: Assets/Prefabs/Chair/APezzi1.obj
+  - fileID: 69
+    classID: 21
+    packedSize: 896
+    offset: 171312
+    sourceAssetGUID: 10fde69f6e101514792f5cdb2cf5b3d3
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/Semar Final.fbx
+  - fileID: 70
+    classID: 28
+    packedSize: 5564
+    offset: 172208
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 71
+    classID: 28
+    packedSize: 5568
+    offset: 177776
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 72
+    classID: 28
+    packedSize: 5576
+    offset: 183344
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 73
+    classID: 28
+    packedSize: 483480
+    offset: 188920
+    sourceAssetGUID: 05e8b7a8b97b7f54aba10b068a892c7e
+    buildTimeAssetPath: Assets/Materials/ADG_Textures/Plank Textures/Planks1/textures/Planks1_Ambient_Occlusion.tga
+  - fileID: 74
+    classID: 28
+    packedSize: 349660
+    offset: 672400
+    sourceAssetGUID: 062a26ce01cb86642a4a5e558355d208
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/PauseIcon.png
+  - fileID: 75
+    classID: 28
+    packedSize: 2097260
+    offset: 1022064
+    sourceAssetGUID: 06d8be9df22e9d443a0aefb29905bd87
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/downImage.png
+  - fileID: 76
+    classID: 28
+    packedSize: 102800
+    offset: 3119328
+    sourceAssetGUID: 08df58629bc689344b233ea3e4757f31
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/textures/Cepot_Kepala.001.png
+  - fileID: 77
+    classID: 28
+    packedSize: 349664
+    offset: 3222128
+    sourceAssetGUID: 0b57367304e0c224fab0e9eef953ee44
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeHighIcon.png
+  - fileID: 78
+    classID: 28
+    packedSize: 258088
+    offset: 3571792
+    sourceAssetGUID: 16b41f8fa7c09bf42854fd52bae68769
+    buildTimeAssetPath: Assets/Materials/Tile 3/Unity/Unity_Tile_3_Normal.jpg
+  - fileID: 79
+    classID: 28
+    packedSize: 699180
+    offset: 3829880
+    sourceAssetGUID: 1d4fc9b7092dcb34a886b93c13354e9c
+    buildTimeAssetPath: Assets/Prefabs/PC/textures/01 - Default_albedo.jpg
+  - fileID: 80
+    classID: 28
+    packedSize: 2097260
+    offset: 4529064
+    sourceAssetGUID: 25f74bd5fd43fe94a9bf7a33040c8fbf
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/leftImage.png
+  - fileID: 81
+    classID: 28
+    packedSize: 349664
+    offset: 6626328
+    sourceAssetGUID: 2a2f709a85fb9604cb69ee3540c9d618
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeLowIcon.png
+  - fileID: 82
+    classID: 28
+    packedSize: 349656
+    offset: 6975992
+    sourceAssetGUID: 2e770eb7fde325548bf15dea94681504
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/LockIcon.png
+  - fileID: 83
+    classID: 28
+    packedSize: 657100
+    offset: 7325648
+    sourceAssetGUID: 3a618a33679f7a74fa4690c71146d333
+    buildTimeAssetPath: Assets/Materials/ADG_Textures/Plank Textures/Planks1/textures/Planks1_Height.tga
+  - fileID: 84
+    classID: 28
+    packedSize: 1398236
+    offset: 7982752
+    sourceAssetGUID: 3b2453eeb0b9f964c8ed4697d126615e
+    buildTimeAssetPath: Assets/Photo/Brosur_fix.png
+  - fileID: 85
+    classID: 28
+    packedSize: 2097260
+    offset: 9380992
+    sourceAssetGUID: 400d172508883dc4eb23264cb156581f
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/frontImage.png
+  - fileID: 86
+    classID: 28
+    packedSize: 43808
+    offset: 11478256
+    sourceAssetGUID: 454561336f6532144be8d99166b630dd
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/textures/sarung.jpeg
+  - fileID: 87
     classID: 28
     packedSize: 174912
-    offset: 73512
+    offset: 11522064
     sourceAssetGUID: 49692eda35f1f8c4b8a536b891221c4c
     buildTimeAssetPath: Assets/Materials/TexturesCom_Plaster_Plain_512_roughness.tif
-  - fileID: 17
+  - fileID: 88
+    classID: 28
+    packedSize: 159716
+    offset: 11696976
+    sourceAssetGUID: 4a9238b915af71b47816ad7d2c8f61bc
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/textures/Kain bali.png
+  - fileID: 89
+    classID: 28
+    packedSize: 2097260
+    offset: 11856696
+    sourceAssetGUID: 61e6c3739167eb34abfef78dcc131203
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/rightImage.png
+  - fileID: 90
+    classID: 28
+    packedSize: 349664
+    offset: 13953960
+    sourceAssetGUID: 699edcd6cfca9c14781e41a83a5f47ec
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeMuteIcon.png
+  - fileID: 91
+    classID: 28
+    packedSize: 1048684
+    offset: 14303624
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 92
+    classID: 28
+    packedSize: 11040
+    offset: 15352312
+    sourceAssetGUID: 6f83de0656dded943a5f7f3b396fbb8c
+    buildTimeAssetPath: Assets/QvPen/Texture/rainbow.png
+  - fileID: 93
+    classID: 28
+    packedSize: 2097256
+    offset: 15363352
+    sourceAssetGUID: 82671bcdbbcc6f54c86c3c2c6ed06aa8
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/upImage.png
+  - fileID: 94
+    classID: 28
+    packedSize: 98760
+    offset: 17460608
+    sourceAssetGUID: 89de4a9b80177e24a84b885732e14450
+    buildTimeAssetPath: Assets/Prefabs/Wayang Semar/textures/Semar_kepala.png
+  - fileID: 95
+    classID: 28
+    packedSize: 1830304
+    offset: 17559368
+    sourceAssetGUID: 8a2cf66881a75f04b967b878709d722e
+    buildTimeAssetPath: Assets/Materials/ADG_Textures/Plank Textures/Planks1/textures/Planks1_Normal.tga
+  - fileID: 96
     classID: 28
     packedSize: 349684
-    offset: 248424
+    offset: 19389672
     sourceAssetGUID: a5859f280de78204a8ebc1cd146c6eeb
     buildTimeAssetPath: Assets/Materials/TexturesCom_Plaster_Plain_512_normal.tif
-  - fileID: 18
+  - fileID: 97
+    classID: 28
+    packedSize: 349656
+    offset: 19739360
+    sourceAssetGUID: aba612f742b6fd54bad52ffb4cd44f99
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/LoopIcon.png
+  - fileID: 98
+    classID: 28
+    packedSize: 349660
+    offset: 20089016
+    sourceAssetGUID: b123dd9c318d33c469f08575ed5d0101
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/ReloadIcon.png
+  - fileID: 99
+    classID: 28
+    packedSize: 2097260
+    offset: 20438680
+    sourceAssetGUID: b8eac033bd49f0f4a8914a7454a2ec3c
+    buildTimeAssetPath: Assets/SkyBox Volume 2/DeepSpaceGreenWithPlanet/backImage.png
+  - fileID: 100
+    classID: 28
+    packedSize: 349656
+    offset: 22535944
+    sourceAssetGUID: bae40aa052ac7ed479e6d3444c2e5a75
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/PlayIcon.png
+  - fileID: 101
+    classID: 28
+    packedSize: 809104
+    offset: 22885600
+    sourceAssetGUID: c556b92e45cfbf64c9b730b057687694
+    buildTimeAssetPath: Assets/Materials/ADG_Textures/Plank Textures/Planks1/textures/Planks1a.tif
+  - fileID: 102
+    classID: 28
+    packedSize: 699184
+    offset: 23694704
+    sourceAssetGUID: ca13b6147e6ac8248b9c9bd8678a8dfc
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/textures/5561a52c0423bd9c588b4567.jpeg
+  - fileID: 103
+    classID: 28
+    packedSize: 349660
+    offset: 24393888
+    sourceAssetGUID: d26a5d7f84a7ab54c937b98e631663a1
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/UnlockIcon.png
+  - fileID: 104
     classID: 28
     packedSize: 174908
-    offset: 598112
+    offset: 24743552
     sourceAssetGUID: d8e671a896a95e84a811ec624ff29799
     buildTimeAssetPath: Assets/Materials/TexturesCom_Plaster_Plain_512_height.tif
-  - fileID: 19
+  - fileID: 105
+    classID: 28
+    packedSize: 804
+    offset: 24918464
+    sourceAssetGUID: e5b174a8d905de44d938cdd3adf85546
+    buildTimeAssetPath: Assets/USharpVideo/Textures/BlackSwatch.png
+  - fileID: 106
+    classID: 28
+    packedSize: 349656
+    offset: 24919272
+    sourceAssetGUID: e6225dac30a73a347b7ff0bf743f639f
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/StopIcon.png
+  - fileID: 107
+    classID: 28
+    packedSize: 349664
+    offset: 25268928
+    sourceAssetGUID: eb116d1688b9cac4fb160c69bd6e9690
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeOffIcon.png
+  - fileID: 108
+    classID: 28
+    packedSize: 349656
+    offset: 25618592
+    sourceAssetGUID: f16a414e2d147a94ab3d8a9e5ad2e28e
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/InfoIcon.png
+  - fileID: 109
+    classID: 28
+    packedSize: 699184
+    offset: 25968248
+    sourceAssetGUID: fce02d979d0f2fc4c9cdcc42e87a857a
+    buildTimeAssetPath: Assets/Prefabs/Chair/APezzi1_default_color.jpg
+  - fileID: 110
+    classID: 43
+    packedSize: 2364
+    offset: 26667432
+    sourceAssetGUID: b243b844d7a80a746b855eca5b0582ca
+    buildTimeAssetPath: Assets/QvPen/Mesh/qv_pen.fbx
+  - fileID: 111
+    classID: 43
+    packedSize: 1228
+    offset: 26669800
+    sourceAssetGUID: bd83bee821a1a89488f004c9dc04b5b4
+    buildTimeAssetPath: Assets/QvPen/Mesh/qv_eraser.fbx
+  - fileID: 112
+    classID: 43
+    packedSize: 7587484
+    offset: 26671032
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
+  - fileID: 113
+    classID: 43
+    packedSize: 212168
+    offset: 34258520
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
+  - fileID: 114
+    classID: 43
+    packedSize: 6865640
+    offset: 34470688
+    sourceAssetGUID: aba1c0af6ced58b4e95c821208a640b4
+    buildTimeAssetPath: Assets/Prefabs/Wayang Cepot/Cepot Final.fbx
+  - fileID: 115
     classID: 48
-    packedSize: 913640
-    offset: 773024
+    packedSize: 1409760
+    offset: 41336328
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 20
+  - fileID: 116
     classID: 48
-    packedSize: 5480
-    offset: 1686664
+    packedSize: 23136
+    offset: 42746088
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 21
+  - fileID: 117
+    classID: 48
+    packedSize: 39660
+    offset: 42769224
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 118
+    classID: 48
+    packedSize: 4456
+    offset: 42808888
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 119
+    classID: 48
+    packedSize: 432292
+    offset: 42813344
+    sourceAssetGUID: 412ea878efbed224d97338aed34a773c
+    buildTimeAssetPath: Assets/USharpVideo/Shaders/StandardVideoEmissive.shader
+  - fileID: 120
+    classID: 48
+    packedSize: 7132
+    offset: 43245640
+    sourceAssetGUID: 62d10ee450fd6014e996fd22f73c5baa
+    buildTimeAssetPath: Assets/QvPen/Shader/rounded_trail_for_qv_pen.shader
+  - fileID: 121
+    classID: 48
+    packedSize: 6164
+    offset: 43252776
+    sourceAssetGUID: 9d61949da4bd1b545b4fdacba6dfb5da
+    buildTimeAssetPath: Assets/USharpVideo/Shaders/UI-MerlinUI.shader
+  - fileID: 122
     classID: 48
     packedSize: 5068
-    offset: 1692144
+    offset: 43258944
     sourceAssetGUID: d5b89f0c74ccf5049ba803c14a090378
     buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Particle-Multiply.shader
-  - fileID: 22
-    classID: 89
-    packedSize: 33554780
-    offset: 1697216
-    sourceAssetGUID: 3675d0c3c874f6b479bab57eb7e68c90
-    buildTimeAssetPath: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
-  - fileID: 23
+  - fileID: 123
+    classID: 49
+    packedSize: 24
+    offset: 43264016
+    sourceAssetGUID: 5b3d8961b3eb9c748b9157f0f6b0d435
+    buildTimeAssetPath: Assets/QvPen/version.txt
+  - fileID: 124
+    classID: 74
+    packedSize: 2368
+    offset: 43264040
+    sourceAssetGUID: ea8077da5766357479dd3ebf31da098c
+    buildTimeAssetPath: Assets/USharpVideo/Animations/InterpTo0.anim
+  - fileID: 125
+    classID: 74
+    packedSize: 2368
+    offset: 43266408
+    sourceAssetGUID: 599105a1454742644906304ddb0562cd
+    buildTimeAssetPath: Assets/USharpVideo/Animations/InterpTo1.anim
+  - fileID: 126
+    classID: 74
+    packedSize: 2864
+    offset: 43268776
+    sourceAssetGUID: 6b22cd66ca95bcd468f2f47441c00582
+    buildTimeAssetPath: Assets/USharpVideo/Animations/ReloadRotate.anim
+  - fileID: 127
+    classID: 91
+    packedSize: 840
+    offset: 43271640
+    sourceAssetGUID: 3508d1b4f8de760439c5a1dd8cebf4f6
+    buildTimeAssetPath: Assets/USharpVideo/Animations/ReloadButton.controller
+  - fileID: 128
+    classID: 91
+    packedSize: 1232
+    offset: 43272480
+    sourceAssetGUID: 43d010a9dfd9d934db896b3ca4f95eeb
+    buildTimeAssetPath: Assets/USharpVideo/Animations/SliderController.controller
+  - fileID: 129
     classID: 115
-    packedSize: 96
-    offset: 61600
-    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
-    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 24
-    classID: 115
-    packedSize: 108
-    offset: 61696
+    packedSize: 120
+    offset: 111056
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 25
+  - fileID: 130
+    classID: 115
+    packedSize: 100
+    offset: 111176
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 131
+    classID: 115
+    packedSize: 120
+    offset: 111280
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 132
+    classID: 115
+    packedSize: 92
+    offset: 111400
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 133
+    classID: 115
+    packedSize: 96
+    offset: 111496
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 134
+    classID: 115
+    packedSize: 116
+    offset: 111592
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 135
+    classID: 115
+    packedSize: 116
+    offset: 111712
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 136
+    classID: 115
+    packedSize: 108
+    offset: 111832
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 137
+    classID: 115
+    packedSize: 96
+    offset: 111944
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 138
+    classID: 115
+    packedSize: 92
+    offset: 112040
+    sourceAssetGUID: 27ce5d32713d91c4e8d5a6ec9e867dcc
+    buildTimeAssetPath: Assets/USharpVideo/Scripts/UI/UIStyler.cs
+  - fileID: 139
+    classID: 115
+    packedSize: 80
+    offset: 112136
+    sourceAssetGUID: 31a19414c41e5ae4aae2af33fee712f6
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs
+  - fileID: 140
+    classID: 115
+    packedSize: 92
+    offset: 112216
+    sourceAssetGUID: 447ea4bbd35f6a541adc230420ec00c2
+    buildTimeAssetPath: Assets/USharpVideo/Scripts/UI/UIStyle.cs
+  - fileID: 141
     classID: 115
     packedSize: 88
-    offset: 61808
+    offset: 112312
     sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
     buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
-  - fileID: 26
+  - fileID: 142
+    classID: 115
+    packedSize: 88
+    offset: 112400
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 143
+    classID: 115
+    packedSize: 80
+    offset: 112488
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 144
+    classID: 115
+    packedSize: 88
+    offset: 112568
+    sourceAssetGUID: 67db9e8f0e2ae9c40bc1e2b64352a6b4
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Slider.cs
+  - fileID: 145
+    classID: 115
+    packedSize: 108
+    offset: 112656
+    sourceAssetGUID: 785c8954a0e481d4692a9aef33de993c
+    buildTimeAssetPath: Assets/USharpVideo/Scripts/UI/UIStyleMarkup.cs
+  - fileID: 146
+    classID: 115
+    packedSize: 104
+    offset: 112768
+    sourceAssetGUID: 8a8695521f0d02e499659fee002a26c2
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs
+  - fileID: 147
     classID: 115
     packedSize: 128
-    offset: 61896
+    offset: 112872
     sourceAssetGUID: bf61d954ecb803046953c666facfb904
     buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 27
+  - fileID: 148
+    classID: 115
+    packedSize: 104
+    offset: 113000
+    sourceAssetGUID: d0b148fe25e99eb48b9724523833bab1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventTrigger.cs
+  - fileID: 149
+    classID: 115
+    packedSize: 96
+    offset: 113104
+    sourceAssetGUID: d199490a83bb2b844b9695cbf13b01ef
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/InputField.cs
+  - fileID: 150
+    classID: 115
+    packedSize: 104
+    offset: 113200
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 151
+    classID: 115
+    packedSize: 88
+    offset: 113304
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 152
+    classID: 115
+    packedSize: 120
+    offset: 113392
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 153
+    classID: 115
+    packedSize: 92
+    offset: 113512
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 154
+    classID: 213
+    packedSize: 460
+    offset: 43273712
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 155
+    classID: 213
+    packedSize: 460
+    offset: 43274176
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 156
+    classID: 213
+    packedSize: 468
+    offset: 43274640
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 157
+    classID: 213
+    packedSize: 460
+    offset: 43275112
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 158
+    classID: 213
+    packedSize: 468
+    offset: 43275576
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 159
+    classID: 213
+    packedSize: 456
+    offset: 43276048
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 160
+    classID: 213
+    packedSize: 472
+    offset: 43276504
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 161
+    classID: 213
+    packedSize: 568
+    offset: 43276976
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 162
+    classID: 213
+    packedSize: 572
+    offset: 43277544
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 163
+    classID: 213
+    packedSize: 580
+    offset: 43278120
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 164
+    classID: 213
+    packedSize: 1288
+    offset: 43278704
+    sourceAssetGUID: 062a26ce01cb86642a4a5e558355d208
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/PauseIcon.png
+  - fileID: 165
+    classID: 213
+    packedSize: 1764
+    offset: 43279992
+    sourceAssetGUID: 0b57367304e0c224fab0e9eef953ee44
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeHighIcon.png
+  - fileID: 166
+    classID: 213
+    packedSize: 1320
+    offset: 43281760
+    sourceAssetGUID: 2a2f709a85fb9604cb69ee3540c9d618
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeLowIcon.png
+  - fileID: 167
+    classID: 213
+    packedSize: 1912
+    offset: 43283080
+    sourceAssetGUID: 2e770eb7fde325548bf15dea94681504
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/LockIcon.png
+  - fileID: 168
+    classID: 213
+    packedSize: 1180
+    offset: 43284992
+    sourceAssetGUID: 699edcd6cfca9c14781e41a83a5f47ec
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeMuteIcon.png
+  - fileID: 169
+    classID: 213
+    packedSize: 1068
+    offset: 43286176
+    sourceAssetGUID: aba612f742b6fd54bad52ffb4cd44f99
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/LoopIcon.png
+  - fileID: 170
+    classID: 213
+    packedSize: 1652
+    offset: 43287248
+    sourceAssetGUID: b123dd9c318d33c469f08575ed5d0101
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/ReloadIcon.png
+  - fileID: 171
+    classID: 213
+    packedSize: 1816
+    offset: 43288904
+    sourceAssetGUID: bae40aa052ac7ed479e6d3444c2e5a75
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/PlayIcon.png
+  - fileID: 172
+    classID: 213
+    packedSize: 1572
+    offset: 43290720
+    sourceAssetGUID: d26a5d7f84a7ab54c937b98e631663a1
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/UnlockIcon.png
+  - fileID: 173
+    classID: 213
+    packedSize: 1144
+    offset: 43292296
+    sourceAssetGUID: e6225dac30a73a347b7ff0bf743f639f
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/StopIcon.png
+  - fileID: 174
+    classID: 213
+    packedSize: 1024
+    offset: 43293440
+    sourceAssetGUID: eb116d1688b9cac4fb160c69bd6e9690
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/VolumeOffIcon.png
+  - fileID: 175
+    classID: 213
+    packedSize: 4732
+    offset: 43294464
+    sourceAssetGUID: f16a414e2d147a94ab3d8a9e5ad2e28e
+    buildTimeAssetPath: Assets/USharpVideo/UI/Feather/InfoIcon.png
+  - fileID: 176
+    classID: 213
+    packedSize: 460
+    offset: 43299200
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 177
+    classID: 213
+    packedSize: 472
+    offset: 43299664
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 178
+    classID: 213
+    packedSize: 460
+    offset: 43300136
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 179
+    classID: 213
+    packedSize: 472
+    offset: 43300600
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 180
+    classID: 213
+    packedSize: 468
+    offset: 43301072
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 181
+    classID: 213
+    packedSize: 460
+    offset: 43301544
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 182
+    classID: 213
+    packedSize: 472
+    offset: 43302008
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/QvPen/Texture/qvpen_button.png
+  - fileID: 183
+    classID: 114
+    packedSize: 37680
+    offset: 43302480
+    sourceAssetGUID: dfb41af9f351c4f489c508bc35ec82fa
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/0cfd2b8f0262db847bfb55bab92d3218.asset
+  - fileID: 184
+    classID: 114
+    packedSize: 72924
+    offset: 43340160
+    sourceAssetGUID: e84ef741539735b478d80108cad12e6e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/1e90e65c11b3fae4c90c1b55d4472db7.asset
+  - fileID: 185
+    classID: 114
+    packedSize: 53344
+    offset: 43413088
+    sourceAssetGUID: e5ce3e0a5ea83184ab8270376fb23e51
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/358a98096f2187c4eb0cee20115d2f3a.asset
+  - fileID: 186
+    classID: 114
+    packedSize: 15548
+    offset: 43466432
+    sourceAssetGUID: daa906b7bb9f6694d9145d6611796173
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/553f0db2752ead24590f8ac2e1f80c06.asset
+  - fileID: 187
+    classID: 114
+    packedSize: 192424
+    offset: 43481984
+    sourceAssetGUID: 0a722f6348dd4c648bed3a9fc24c0ba0
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/7021d3ad08c81d54c8598190c706a0c5.asset
+  - fileID: 188
+    classID: 114
+    packedSize: 644016
+    offset: 43674408
+    sourceAssetGUID: 9fafb88d0e55b9642a0e24f7f63ad2af
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/71ad2ba2c082d724bbdda2d8ddd47a32.asset
+  - fileID: 189
+    classID: 114
+    packedSize: 18864
+    offset: 44318424
+    sourceAssetGUID: 932f4f871e6872349b2368708b4dd3ba
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/b0c60135ec3e09e4796af91290498d4b.asset
+  - fileID: 190
     classID: 114
     packedSize: 17068
-    offset: 35252000
+    offset: 44337288
     sourceAssetGUID: 62513b0cf7b09034fbe336747d3d4d5f
     buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 191
+    classID: 114
+    packedSize: 26712
+    offset: 44354360
+    sourceAssetGUID: 463a36d645b786440862a749deb8f89f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/cdeaa82e9eeca4249860474b074fefa2.asset
+  - fileID: 192
+    classID: 114
+    packedSize: 296
+    offset: 44381072
+    sourceAssetGUID: 55106727684a20b48a170c471208dd4a
+    buildTimeAssetPath: Assets/USharpVideo/Styles/Default.asset
