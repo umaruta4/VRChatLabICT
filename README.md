@@ -1,2 +1,2 @@
 # VRChatLabICT
-This is repository for unity vrchat lab ict
+VRChatLabICT adalah World VRChat replika dari Lab ICT Budi Luhur yang dibuat menggunakan Unity.
